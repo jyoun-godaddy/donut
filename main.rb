@@ -1,5 +1,5 @@
 require 'bundler/setup'
-require 'pry'
+require 'byebug'
 require 'json'
 
 class Donut
@@ -56,17 +56,5 @@ class Donut
   end
 
   def store_history(histo)
+  end
 end
-
-participants = [
-  'yutaro',
-  'claire',
-  'katie',
-  'josh',
-  'james',
-  'aniza',
-]
-
-d = Donut.new(participants, './history.json')
-d.call
-

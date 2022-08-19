@@ -1,6 +1,20 @@
-# TODO: use a round robin algorithm.
-# also think about how to manage late joiners and early quiters
-# https://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm
+# pairing algo
+https://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm
+
+```
+# TODO
+create state
+  creating, adding, removing participants
+  storing and retrieving state
+    - current position of round robin
+    - matched history
+
+add functionality
+  balance participants
+    add placeholder if odd count
+    compress when 2+ placeholders
+  rotate
+
 
 ##########
 # ROTATE #
@@ -89,3 +103,4 @@ rotate
   ```
 store previous matches
 
+```
